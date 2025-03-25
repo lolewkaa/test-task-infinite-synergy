@@ -1,0 +1,14 @@
+.layoutS{
+    height: -webkit-fill-available;
+}
+.page_wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-height: 100vh;
+}
+.page{
+    overflow: hidden;
+    flex: 1 0 auto;
+
+}

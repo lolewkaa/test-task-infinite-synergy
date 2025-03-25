@@ -1,0 +1,22 @@
+.userCard__input {
+    border: 1px solid blue;
+    border-radius: 5px;
+    height: 30px;
+    width: 220px;
+    padding-left: 2px;
+}
+.userCard__container {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+}
+.userCard__error {
+    color: red;
+}
+.userCard {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
